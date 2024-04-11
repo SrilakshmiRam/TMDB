@@ -1,0 +1,16 @@
+.top-rated-movies-list {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  padding-left: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.topRated-movies-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+}

@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import './index.css'
 
-const TopRatedMovie = props => {
+const UpcomingMovie = props => {
   const {movieDetails} = props
   const {title, posterPath, voteAverage, id} = movieDetails
   const rating = voteAverage.toFixed(1)
@@ -19,4 +19,4 @@ const TopRatedMovie = props => {
   )
 }
 
-export default TopRatedMovie
+export default UpcomingMovie
